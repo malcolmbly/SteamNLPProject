@@ -1,1 +1,1 @@
-{"num_reviews": 1, "review_score": 5, "review_score_desc": "Mixed", "total_positive": 3970, "total_negative": 5302, "total_reviews": 9272}
+{"num_reviews": 1, "review_score": 5, "review_score_desc": "Mixed", "total_positive": 3971, "total_negative": 5302, "total_reviews": 9273}
