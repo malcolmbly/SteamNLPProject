@@ -12,6 +12,6 @@ Using a bag of words style approach, I downloaded a json array of user reviews t
 
 I have each part of the process separated into a different notebook for ease of use. There are also two tsv files which can be used to visualize the word embeddings with google's free tool. (http://projector.tensorflow.org/). There are also text files that store the encoder, as well as the raw reviews at different stages of processing.
 
-### Current Issues
+### Future Goals
 
-Currently, the network is extremely likely to converge on the local minima of simply classifying each review the same way (which tends to yield an accuracy around 57%. Seldomly, it will converge extremely quickly to attain a validation accuracy around 80-85%, but it seems to be extremely dependent on starting with weights that are already near the targets.
+Currently, the api request only takes a single game ID, I would like to feed lists at some point, although pulling from too many games will mean losing a lot of significant game-specific words.
